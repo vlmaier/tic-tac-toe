@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/playerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_marginTop="100sp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Feld 1 - 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginTop="50sp" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+            <Button
+                android:onClick="game"
+                android:id="@+id/feld1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:shadowColor="#CCCCCC"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:background="@drawable/buttonlayout"
+                android:layout_margin="1sp"
+                android:minHeight="100sp"
+                android:minWidth="100sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0" />
+            <Button
+                android:onClick="game"
+                android:id="@+id/feld2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:shadowColor="#CCCCCC"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:background="@drawable/buttonlayout"
+                android:layout_margin="1sp"
+                android:minHeight="100sp"
+                android:minWidth="100sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0" />
+            <Button
+                android:onClick="game"
+                android:id="@+id/feld3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:shadowColor="#CCCCCC"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:background="@drawable/buttonlayout"
+                android:layout_margin="1sp"
+                android:minHeight="100sp"
+                android:minWidth="100sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <!-- Feld 4 - 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+            <Button
+                android:onClick="game"
+                android:id="@+id/feld4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:shadowColor="#CCCCCC"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:background="@drawable/buttonlayout"
+                android:layout_margin="1sp"
+                android:minHeight="100sp"
+                android:minWidth="100sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0" />
+            <Button
+                android:onClick="game"
+                android:id="@+id/feld5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:shadowColor="#CCCCCC"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:background="@drawable/buttonlayout"
+                android:layout_margin="1sp"
+                android:minHeight="100sp"
+                android:minWidth="100sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0" />
+            <Button
+                android:onClick="game"
+                android:id="@+id/feld6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:shadowColor="#CCCCCC"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:background="@drawable/buttonlayout"
+                android:layout_margin="1sp"
+                android:minHeight="100sp"
+                android:minWidth="100sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <!-- Feld 7 - 9 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+            <Button
+                android:onClick="game"
+                android:id="@+id/feld7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:shadowColor="#CCCCCC"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:background="@drawable/buttonlayout"
+                android:layout_margin="1sp"
+                android:minHeight="100sp"
+                android:minWidth="100sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0" />
+            <Button
+                android:onClick="game"
+                android:id="@+id/feld8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:shadowColor="#CCCCCC"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:background="@drawable/buttonlayout"
+                android:layout_margin="1sp"
+                android:minHeight="100sp"
+                android:minWidth="100sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0" />
+            <Button
+                android:onClick="game"
+                android:id="@+id/feld9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:shadowColor="#CCCCCC"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:background="@drawable/buttonlayout"
+                android:layout_margin="1sp"
+                android:minHeight="100sp"
+                android:minWidth="100sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
