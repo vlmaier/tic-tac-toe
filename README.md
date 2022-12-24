@@ -4,7 +4,7 @@ I have developed this Android application back in 2014. I had no Git experience 
 
 Check this out: https://github.com/vlmaier/tic-tac-toe/blob/main/app/src/main/java/com/vladas/tictactoe/Game.java#L269
 
-What the hell is this?
+What the hell is that?
 
 ```java
 ...
@@ -22,7 +22,7 @@ else if((s1 == b && s2 == b && s3 == "") || (s6 == b && s9 == b && s3 == "") || 
 ...
 ```
 
-Today I am pretty sure that tic tac toe game algorithm can be written waaaay shorter and more readable (I mean readable at all).
+Today I am pretty sure that tic tac toe game algorithm can be written waaaay shorter and more readable (or readable at all).
 
 It kind of works... and I would say that at least back then I understood boolean algebra and conditions.
 
