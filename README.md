@@ -29,7 +29,8 @@ It kind of works... and I would say that at least back then I understood boolean
 ## Layout Showcase
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/18353152/209415095-527a6d36-613a-4125-b329-0a16efbda0b3.png" width="250"/>
-  <img src="https://user-images.githubusercontent.com/18353152/209415097-a72a8778-b493-4a24-9992-603d94c4f3a4.png" width="250"/>
-  <img src="https://user-images.githubusercontent.com/18353152/209415098-c70c8cec-070a-4be9-988d-1605c602ad45.png" width="250"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209437751-41532c16-482e-4622-a59d-2c98780221fd.png" width="200"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209415095-527a6d36-613a-4125-b329-0a16efbda0b3.png" width="200"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209415097-a72a8778-b493-4a24-9992-603d94c4f3a4.png" width="200"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209415098-c70c8cec-070a-4be9-988d-1605c602ad45.png" width="200"/>
 </p>
