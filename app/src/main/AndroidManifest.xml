@@ -2,8 +2,7 @@
 
 <manifest
 
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vladas.tictactoe" >
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:hardwareAccelerated="false"
@@ -14,8 +13,8 @@
 
         <activity
             android:name="com.vladas.tictactoe.SplashScreen"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="fullSensor"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,13 +23,11 @@
         </activity>
 
         <activity
-            android:name="com.vladas.tictactoe.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.vladas.tictactoe.MainActivity">
         </activity>
 
         <activity
-            android:name="com.vladas.tictactoe.Game"
-            android:label="@string/app_name" >
+            android:name="com.vladas.tictactoe.Game">
         </activity>
 
     </application>
